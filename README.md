@@ -43,4 +43,4 @@ Modular programming, recursive functions, and linear algebra.
 ---
 
 ## Author
-Agapi Kallinikou, Academic Year: 2023, National and Kapodistrian University of Athens
+Agapi Kallinikou, Academic Year: 2023, National and Kapodistrian University of Athens, Programming Language: Python 3
