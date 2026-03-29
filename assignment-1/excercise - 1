@@ -1,0 +1,25 @@
+import math
+
+a = float(input('Δώσε το a: '))
+b = float(input('Δώσε το b: '))
+c = float(input('Δώσε το c: '))
+
+if a != 0:
+    # Περίπτωση δευτεροβάθμιας
+    D = b**2 - 4*a*c
+    if D == 0:
+        x = -b/(2*a)
+        print(f'Διπλή ρίζα: x = {x:.3f}')
+    elif D > 0:
+        x1 = (-b + math.sqrt(D))/(2*a)
+        x2 = (-b - math.sqrt(D))/(2*a)
+        print(f'Δύο ρίζες: x1 = {x1:.3f}, x2 = {x2:.3f}')
+    else:
+        print('Δεν υπάρχουν πραγματικές ρίζες.')
+else:
+    # Περίπτωση πρωτοβάθμιας
+    if b != 0:
+        x = -c/b
+        print(f'x = {x:.3f}')
+    else:
+        print('Δε δόθηκε συνάρτηση του x')
