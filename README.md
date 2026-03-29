@@ -42,5 +42,9 @@ Modular programming, recursive functions, and linear algebra.
 
 ---
 
-## Author
-Agapi Kallinikou, Academic Year: 2023, National and Kapodistrian University of Athens, Programming Language: Python 3
+## Academic Context & Author
+
+These optimization models were developed as part of the coursework at the **National and Kapodistrian University of Athens (NKUA)**.
+
+* **Author:** Agapi Kallinikou
+* **Academic Year:** 2022 - 2023
